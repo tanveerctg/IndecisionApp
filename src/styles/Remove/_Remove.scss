@@ -1,0 +1,16 @@
+.msg{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding:$s-size;
+  box-shadow: 5px 10px 8px #888888;
+  background:linear-gradient(to right,rgb(160, 143, 112),white);
+  font-weight:300;
+  color:black;
+}
+.msg .button__remove{
+  color:black;
+}
+.msg h2{
+  font-weight: 100;
+}

@@ -1,0 +1,22 @@
+.options{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  padding: $m-size;
+  border-bottom:1px solid wheat;
+  font-size:$s-size;
+  font-weight: bolder;
+  color:black;
+}
+.options__container{
+  background: linear-gradient(to right,rgb(245, 230, 204),white);
+  box-shadow: 5px 10px 8px #888888; 
+  margin-bottom:$xl-size;
+}
+.form{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  grid-gap:1rem;
+  padding: 1rem;
+  
+}
+

@@ -1,0 +1,20 @@
+.header__container{
+  background-color:black;
+  width:100%;
+}
+.header{
+  background-color:black;
+  margin-bottom:$xl-size;
+  padding:$l-size;
+  width:60rem;
+  margin: 0 auto;
+  margin-bottom: $xl-size;
+}
+.header h1{
+  color:white;
+}
+.header h2{
+  color:skyblue;
+  margin-top:$s-size;
+  font-weight: 100;
+}

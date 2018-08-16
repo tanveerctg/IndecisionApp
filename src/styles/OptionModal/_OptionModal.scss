@@ -1,0 +1,19 @@
+.ReactModal__Overlay--after-open{
+  display:grid;
+  justify-items: center;
+  align-items: center;
+}
+ .modal{
+  background-color: black;
+  height:15rem;
+  width:20rem;
+  display:grid;
+  grid-gap:$s-size;
+  justify-items: center;
+  justify-content:center;
+  align-content:center;
+  align-items:center;
+  color:white;
+  box-shadow: 5px 10px 8px #888888;
+ 
+}

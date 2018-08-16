@@ -1,0 +1,34 @@
+
+.button__big{
+  width:100%;
+  padding:$l-size;
+  font-size:$m-size;
+  background-color: blueviolet;
+  outline:0 !important;
+  border-bottom:5px solid rgb(235, 210, 235);
+  color:white;
+  margin-bottom: $l-size;
+  cursor: pointer;
+}
+.button__big:disabled{
+  opacity:.3;
+}
+.button__small{
+  padding:1.4rem;
+  background-color: blueviolet;
+  font-size:1rem;
+  border-bottom:5px solid rgb(172, 137, 172);
+  color:white;
+}
+.button__remove{
+  background:none;
+  border:none;
+  font-size:$s-size;
+  color:black;
+}
+
+input:first-child{
+  font-size: $m-size;
+  padding:$s-size;
+}
+
